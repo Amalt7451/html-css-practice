@@ -1,0 +1,158 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito, sans-serif;
+}
+
+header{
+    /* background-color: grey; */
+    height:80px;
+    display:flex;
+    align-items: center;
+    padding-left:20px;
+    border-bottom:1px solid #ccc;
+
+}
+.kv-header-image{
+    width: 250px;
+    height:40px
+}
+.container{
+    display:flex ;
+    flex-direction:row;
+    width:100%;
+    height:calc(100vh - 80px);
+      
+
+}
+
+.left-container{
+    /* background-color:red; */
+    width:300px;
+    height: 100%;
+    padding-top: 20px;
+    /* border-right: 1px solid #ccc; */
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.employee-left-container-image{
+    
+    width: 250px;
+    height: 40px;
+   
+}
+
+
+
+.right-container{
+    background-color:#F3F6FA;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+   
+
+
+}
+.form-heading-container{
+    
+    background-color: #FFFFFF;
+    font-size: 13px;
+    height:100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right:30px;
+    display:flex;
+    align-items: center;
+    padding-left:25px;
+    border-radius: 8px;
+}
+.form-container{
+    background-color:#FFFFFF;
+    margin-top:30px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom:30x;
+    padding:30px;
+    border-radius:8px;
+    display:grid;
+    grid-template-columns:
+    1fr 1fr 1fr;
+    gap:30px;
+    align-content:start;
+    height:530px;
+}
+
+.form-field{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+
+input{
+    background-color:#F3F6FA;
+    border:1px solid #C6CDD9;
+    height:40px;
+    border-radius:4px;
+    width:100%;
+    padding-left:10px;
+
+}
+.address-form-field{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.address-field{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.location-address-field{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+.postalcode-address-field{
+    width:50%;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+.id-proof-field{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.id-proof-files{
+    padding-left:330px;
+}
+.button-field{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.submit-button{
+    background-color:#03AEEE;
+    border:none;
+    color:white;
+    height:50px;
+    border-radius:8px;
+    width:175px;
+    font-size: 16px;
+
+}
+.cancel-button{
+    background-color:#F3F6FA;
+    font-size: 16px;
+    border:1px solid black;
+    color:#63667A;
+    height:50px;
+    border-radius:8px;
+    width:175px;
+   
+}
